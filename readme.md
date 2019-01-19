@@ -52,7 +52,7 @@ $blog->seo->keywords; // if seo.keywords not added to this model returned null
 
 ## If you wont to use your own Model
 
-You must publish the migration with:
+You must publish the config with:
 
 <pre>php artisan vendor:publish --provider="Yarmat\Seo\SeoServiceProvider" --tag="config"</pre>
 
