@@ -1,33 +1,33 @@
 {
-    "name": "yarmat/laravel-seo",
-    "description": "Package for using seo fields. (Laravel, Eloquent)",
-    "version": "1.0.0",
-    "keywords": [
-        "laravel",
-        "seo"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "YarmaT",
-            "email": "yarmatua@gmail.com",
-            "homepage": "https://yarmat.su",
-            "role": "Developer"
-        }
-    ],
-  "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Yarmat\\Seo\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Yarmat\\Seo\\SeoServiceProvider"
-            ]
-        }
+  "name": "yarmat/laravel-seo",
+  "description": "Package for using seo fields. (Laravel, Eloquent)",
+  "version": "1.0.0",
+  "keywords": [
+    "laravel",
+    "seo"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YarmaT",
+      "email": "yarmatua@gmail.com",
+      "homepage": "https://yarmat.su",
+      "role": "Developer"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Yarmat\\Seo\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yarmat\\Seo\\SeoServiceProvider"
+      ]
+    }
+  }
 }
