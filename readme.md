@@ -15,7 +15,7 @@ After the migration has been published you can create seos-tables by running the
 
 <pre>php artisan migrate</pre>
 
-##Usage
+## Usage
 
 First, add the Yarmat\Seo\Traits\HasSeoTrait trait to your model(s):
 
@@ -50,7 +50,7 @@ $blog->seo->description; // if seo.description not added to this model returned 
 $blog->seo->keywords; // if seo.keywords not added to this model returned null
 </pre>
 
-##If you wont to use your own Model
+## If you wont to use your own Model
 
 You must publish the migration with:
 
