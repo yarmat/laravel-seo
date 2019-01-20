@@ -63,6 +63,16 @@ return [
 ];
 </pre>
 
+Extend your model
+
+<pre>
+use Yarmat\Seo\Models\Seo as Model;
+
+class Seo extends Model
+{
+}
+</pre>
+
 ## License
 
 The Laravel-seo is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

@@ -1,7 +1,7 @@
 {
   "name": "yarmat/laravel-seo",
   "description": "Package for using seo fields. (Laravel, Eloquent)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "laravel",
     "seo"
